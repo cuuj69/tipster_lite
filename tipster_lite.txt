@@ -29,7 +29,7 @@ how can we infer the severity of the match, what it means for which team to win 
 
 Can we also get some reviews and remarks from top rated tipsters sharing predicting which team should win and why they think they should win
 
-Tools I intend to use for this project
+Tools I intend to use for this project in order to gain understanding in these concepts
 
 Frontend
 React
@@ -50,8 +50,15 @@ CI/CD
 Jenkins
 docker and containerization
 github actions
+microservices
+kubernetes
+prometheus
+grafana
 
-devops
+Also I want to have the like an asana board where the tasks and tickets are put on it 
+
+You can also teach me the full software process ie, sprint sprint deadloack qa, daily scrum etc...
+
 
 
 

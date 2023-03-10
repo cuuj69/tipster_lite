@@ -1,0 +1,65 @@
+Prediction app
+
+An app aide that fine tunes football match prediction
+
+Core aims will be to create an app that can accurately predict at least two goals to be scored in a match, and which team to score at least one goal
+
+Mechanism
+
+Most current head to head
+goal scored in those recent games 
+get goals scored in away game
+get goals scored in home game
+
+check time of goal scored
+
+So the core determining factor is the number of goals accrued in those head to head games
+
+if most recent games head to head  goals are less than 1: exempt that team in question
+
+Other match determining factors include:
+Grounds(Home or Away)
+Team lineup (Are they missing any key players)
+Stat from most recent game(include the time the goal was scored from that previous match)
+
+Proposed weather condition for matchday
+
+Most importantly stats from leauge table
+how can we infer the severity of the match, what it means for which team to win it .
+
+Can we also get some reviews and remarks from top rated tipsters sharing predicting which team should win and why they think they should win
+
+Tools I intend to use for this project
+
+Frontend
+React
+Redux
+
+Backend
+Typescript
+
+Database
+Postgresql
+Redis
+
+Api
+Graphql
+Testing
+
+CI/CD
+Jenkins
+docker and containerization
+github actions
+
+devops
+
+
+
+
+Now I need to see whether there is a way I can get some AWS services running in this project
+
+
+
+
+
+

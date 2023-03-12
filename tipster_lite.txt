@@ -55,6 +55,8 @@ kubernetes
 prometheus
 grafana
 
+nginx
+
 Also I want to have the like an asana board where the tasks and tickets are put on it 
 
 You can also teach me the full software process ie, sprint sprint deadloack qa, daily scrum etc...

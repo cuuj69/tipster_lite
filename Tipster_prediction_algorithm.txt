@@ -1,0 +1,50 @@
+Okay so here is what I thought of
+
+
+The core aim of the app is to predict the occurence of at least two goals to be scored in a match, and which teams to score those goals
+explicityly that
+
+Here is what I pictured for the app:
+
+I would be sourcing these data from sofascore
+
+So on the sofascore app, I will be getting this from their stats about the mathches:
+
+And this would be the data I would be using
+
+Most current head to head
+Number of goals scored in those matches
+Get goals scored in only away games
+Get goals scored in only home games
+Get the time of goals scored
+
+
+Now for the working principle of the prediction:
+
+We take the number of goals scored in those head to head games
+
+So for instance if these two teams who already have a head to head history,have a match ahead, we are going to use the predict based on this criteria:
+
+Let's say Juventus and Roma have a match:
+And Juventus have a head to head of say
+
+Juventus 1: Roma 0
+Roma 2: Juventus 3
+
+Based on the which ground Juventus is playing for the incoming match ie if in  their next match with Roma, Juventus is playing on home grounds, we would concentrate on the head to head stat of Juventus and Roma where Juventus played home 
+
+So now the prediction:
+
+So we see that in the  head to head vrs Roma Juventus Scored 1 goal and Roma scored none, in this case this match is not suitable for prediction
+
+Case where it's suitable to predict
+
+Juventus 2: Roma 2
+Roma 1: Juventus 3
+
+So also the most recent head to head are at the top so we see that, the last time Juventus played Roma, Juventus played home, and we can infer that since Juventus scored more than 1 goal, we take one from Juventus and since Roma also scored 1, we take one from Roma
+
+So the outcome of this match can be 2 goal occurence in the match
+
+Now to determine which team to score a goal, will be determined by what time what team scored the goal in the head to head
+
